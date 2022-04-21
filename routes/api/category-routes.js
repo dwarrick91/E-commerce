@@ -20,7 +20,7 @@ router.get('/', async (req, res)  => {
 router.get('/:id', async (req, res) => {
   try {
     const categoryData = await Category.findByPk(req.params.id, {
-      include: [{ model: Product }, { model: Category }],
+      include: [{ model: Product }]
     });
 
     if (!categoryData) {
@@ -30,6 +30,7 @@ router.get('/:id', async (req, res) => {
 
     res.status(200).json(categoryData);
   } catch (err) {
+    console.log(err);
     res.status(500).json(err);
   }
   // find one category by its `id` value
