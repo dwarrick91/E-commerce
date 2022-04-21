@@ -13,13 +13,13 @@ SO THAT my company can compete with other e-commerce companies
 - [License](#license)
 
 ## Installation
-- Clone or Fork Repo from ![gitHub Repo] https://github.com/dwarrick91/E-Commerce
+- Clone or Fork Repo from ![gitHub Repo]https://github.com/dwarrick91/E-Commerce
 - open terminal 
 - run "node server.js" or if nodemon is installed "nodemon server.js
 - open insomnia app to test application
 
 ## Usage
-
+   ![link to E-Commerce walkthrough](https://drive.google.com/file/d/1wl5nI2fIq-Ooik50DUJ6cTr4tYfpoeow/view)
    ![E-Commerce Gif](./assets/images/E-Commerce.gif)
 ## Credits
 -Insomnia
