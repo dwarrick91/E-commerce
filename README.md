@@ -4,7 +4,7 @@
 AS A manager at an internet retail company
 I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
-## Table of Contents (Optional)
+## Table of Contents 
 
 
 - [Installation](#installation)
@@ -13,24 +13,21 @@ SO THAT my company can compete with other e-commerce companies
 - [License](#license)
 
 ## Installation
-
+- Clone or Fork Repo from ![gitHub Repo] https://github.com/dwarrick91/E-Commerce
+- open terminal 
+- run "node server.js" or if nodemon is installed "nodemon server.js
+- open insomnia app to test application
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
+   ![E-Commerce Gif](./assets/images/E-Commerce.gif)
 ## Credits
+-Insomnia
+-Sequelize
+-mysql2
+-dotenv
+-express
 
-Clone or Fork Repo from ![gitHub Repo] https://github.com/dwarrick91/E-Commerce
-open terminal 
-run "node server.js" or if nodemon is installed "nodemon server.js
-open insomnia app to test application
 
 ## License
 MIT License
